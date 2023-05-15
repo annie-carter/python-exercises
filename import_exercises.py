@@ -7,8 +7,8 @@ def is_vowel(letter):
 
 # from function exerc    
 def calculate_tip(bill, tip_perc):
-    return bill / tip_perc
-    
+    return bill *   tip_perc
+
 
 def get_letter_grade(score):
     if type(score) == int or type(score) == float:
